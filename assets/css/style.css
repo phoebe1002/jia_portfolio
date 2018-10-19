@@ -74,7 +74,7 @@ body {
 
 
 
-#about-page {
+#about-page, #portfolio-page {
     padding: 10px;
 }
 
@@ -86,8 +86,30 @@ body {
 
 #nav-size {
     padding: 0 10% 0 10%;
+    background: white;
+    color: blue;
   }
-  
+
+  /* .navbar-light {
+      color: plum;
+  }
+   */
+
   .nav-item a:hover {
     background-color: lightblue;
   }
+
+
+#portfolio-caption {
+    color: #00bfff;
+}
+
+#image-wrapper {
+    width: 60%;
+    height: auto;
+    margin: 0 20% 10% 20%;
+}
+
+#portfolio-page {
+    background: -webkit-linear-gradient(#eee, pink);
+}
