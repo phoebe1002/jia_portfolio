@@ -1,0 +1,93 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#header-text { 
+    padding: 10px 0 10px 0;
+    background: -webkit-linear-gradient(#eee,#00bfff);
+    font-weight: bolder;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+  }
+
+#home-image {
+    width: 100%;
+    height: auto;
+    
+}
+
+.container {
+    margin-top: 5%; 
+}
+
+#home-page {
+    position: relative;
+    padding: 10px;
+}
+.caption {
+    position: absolute;
+    top: 50%;
+    right: 41.25%;
+    padding: 3px;
+  }
+
+#open-form {
+    background: pink;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.mission-statement {
+    border-top: 0.15px solid pink;
+    border-bottom: 0.15px solid pink;
+    margin: 0px 20% 20px 20%;
+    padding: 10px;
+    background: linear-gradient(to right, #00bfff 0%, pink 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  /* #about-page {
+      margin: 5%;  
+  } */
+
+.profile-pic {
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+}
+
+#intro-text {
+    margin: 2%;
+    background: linear-gradient(to right, #ff8080 0%, white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+}
+
+
+
+#about-page {
+    padding: 10px;
+}
+
+
+#logo-focus {
+    color: pink;
+    background: white;
+}
+
+#nav-size {
+    padding: 0 10% 0 10%;
+  }
+  
+  .nav-item a:hover {
+    background-color: lightblue;
+  }
