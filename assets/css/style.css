@@ -236,3 +236,20 @@ footer a:hover {
      margin: 0;
      padding: 4px;
   }
+
+
+  #contact-me {
+    font-size: 35px;
+    margin: 10px;
+    padding: 10px;
+    /* color: peru; */
+
+  }
+
+  #contact-me a {
+    color: peru;
+  }
+
+  #contact-me a:hover {
+    color: #061D25;
+  }
