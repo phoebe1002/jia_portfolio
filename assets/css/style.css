@@ -16,13 +16,13 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 25px;
-  }
+}
 
 #image-section {
     max-width: 100%;
     max-height: 100%;
     /* margin-left: 10%; */
-  }
+}
 
 
 #image-section-caption {
@@ -41,7 +41,7 @@ body {
     top: 50%;
     right: 41.25%;
     padding: 3px;
-  }
+}
 
 #open-form {
     background: pink;
@@ -58,18 +58,19 @@ body {
     background: linear-gradient(to right, peru 0%, pink 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-  }
+}
 
   /* #home-page {
       margin-bottom: 5%;  
   } */
 
 .profile-pic {
-    border-radius: 60%;
-    width: 25%;
+    border-radius: 50%;
+    width: 20%;
     height: auto;
-    margin-top: 10%;  
+    margin-top: 2%;      
 }
+
 
 #intro-text {
     margin: 2%;
@@ -126,7 +127,7 @@ body {
     max-height: 100%;
     width: 100%;
 
-  }
+}
   
 .p-middle {
     position: absolute;
@@ -139,15 +140,15 @@ body {
     opacity: 0;
     transition: .5s ease;
     background-color: #061D25;
-  }
+}
   
 .p-container:hover .p-image {
     opacity: 0.3;
-  }
+}
   
 .p-container:hover .p-middle {
     opacity: 1;
-  }
+}
   
 .p-text {
     color: white;
@@ -159,7 +160,7 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
 footer {
     background: #061D25;
@@ -191,12 +192,10 @@ footer a:hover {
     margin: 5px;
 }
 
-
 #github-size {
     font-size: 35px;
     color: white;
 }
-
 
 #logo-focus {
     color: pink;
@@ -209,11 +208,9 @@ footer a:hover {
     /* color: white */
     font-weight: bold;
     display: center;
+}
 
-  }
-
-
-  #about-focus, #portfolio-focus {
+#about-focus, #portfolio-focus {
     font-family: 'Gloria Hallelujah', cursive;
     background: white; 
     border-radius: 60%;
@@ -221,36 +218,35 @@ footer a:hover {
     text-align: left;
     border-bottom: solid 5px #70726F;
     /* margin-left: 20%; */
-  }
+}
 
 
-  .header-text {
+.header-text {
     font-weight: bold;
-  }
+}
 
-  .smaller-text {
+.smaller-text {
     font-size: 12px;
-  }
+}
 
-  #specific-text {
+#specific-text {
     font-size: 12px;
-     margin: 0;
-     padding: 4px;
-  }
+    margin: 0;
+    padding: 4px;
+}
 
-
-  #contact-me {
+#contact-me {
     font-size: 35px;
     margin: 10px;
     padding: 10px;
-    /* color: peru; */
+/* color: peru; */
 
-  }
+}
 
-  #contact-me a {
+#contact-me a {
     color: peru;
-  }
+}
 
-  #contact-me a:hover {
+#contact-me a:hover {
     color: #061D25;
-  }
+}
